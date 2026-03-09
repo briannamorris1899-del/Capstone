@@ -1,0 +1,1 @@
+• Conducted an end‑to‑end epilepsy seizure analysis using Python (Pandas, Seaborn, Matplotlib), including data cleaning, trend analysis, correlation exploration, and visualization development; produced actionable insights and a polished analytics portfolio project demonstrating proficiency in data analysis workflows.

@@ -1,0 +1,10 @@
+• Python data analysis (Pandas, Seaborn, Matplotlib)
+• Data cleaning and preparation for real-world datasets
+• Exploratory data analysis (EDA) and trend identification
+• Correlation analysis and numeric feature exploration
+• Visualization design and insight communication
+• Building reproducible analysis scripts and workflows
+• Working with time-series data and date-based trends
+• Investigating relationships between behavioral and clinical variables
+• Structuring project folders for scalable analytics work
+• Translating findings into clear, actionable insights

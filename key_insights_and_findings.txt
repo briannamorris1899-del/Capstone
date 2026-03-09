@@ -1,0 +1,9 @@
+• Seizure frequency showed noticeable variation across the observed time period, with certain days exhibiting higher activity. This suggests that temporal patterns may play a role in seizure occurrence and should be explored further with larger datasets.
+
+• Sleep deviation displayed a meaningful relationship with seizure count. Individuals with greater negative sleep deviation (less sleep than usual) tended to experience higher seizure activity, indicating that sleep consistency may be an important behavioral factor.
+
+• Medication adherence scores showed directional patterns that may correlate with seizure frequency. Lower adherence appeared to align with higher seizure counts, reinforcing the importance of consistent treatment routines.
+
+• Demographic analysis revealed differences in seizure frequency across age groups, suggesting that age-related factors may influence seizure patterns or reporting behavior.
+
+• Correlation analysis highlighted which numeric variables moved together, helping identify potential predictors and relationships worth deeper investigation in future modeling or clinical studies.

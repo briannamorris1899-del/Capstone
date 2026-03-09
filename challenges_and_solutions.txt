@@ -1,0 +1,9 @@
+• Folder structure errors: The script initially failed to save images because the visuals folder did not exist. I resolved this by creating the folder manually and later adding an automated folder‑creation line using os.makedirs() to ensure the script runs reliably.
+
+• Correlation heatmap failure: The heatmap originally produced an error due to non‑numeric columns (such as dates). I fixed this by selecting only numeric columns with df.select_dtypes(include='number'), allowing the heatmap to generate successfully.
+
+• Script stopping early: Because the heatmap error occurred mid‑script, the remaining visuals were not generated. After correcting the correlation logic, the script executed fully and produced all four visualizations.
+
+• File organization issues: Some project files were accidentally saved in the cleaned data folder. I reorganized the project into a clean, professional structure, ensuring that only the dataset remains in data/cleaned and all documentation sits in the main project directory.
+
+• Reproducibility improvements: I added folder‑creation logic and tightened the plotting code to ensure the script runs cleanly on any machine without manual setup.

@@ -1,0 +1,47 @@
+## Epilepsy Seizure Analysis Case Study
+
+### Overview
+This project explores seizure patterns in individuals with epilepsy using a structured, end‑to‑end Python workflow. The goal was to understand how factors such as sleep deviation, medication adherence, and demographic characteristics relate to seizure frequency. By cleaning the dataset, performing exploratory analysis, and generating clear visualizations, I developed insights that highlight meaningful behavioral and clinical patterns.
+
+### Problem Statement
+Epilepsy is a neurological condition characterized by unpredictable seizures. Understanding what factors may influence seizure frequency can support better patient management and highlight areas for further clinical research. This project aims to identify trends and relationships within a real‑world dataset to uncover potential contributing factors.
+
+### Data Preparation
+I began by loading and cleaning the dataset to ensure it was structured and analysis‑ready. This included:
+- Converting date fields into usable formats
+- Handling missing or inconsistent values
+- Ensuring numeric fields were properly typed
+- Creating age groups for demographic analysis
+
+The cleaned dataset was stored in a dedicated folder to maintain a professional, reproducible project structure.
+
+### Exploratory Data Analysis
+Using Pandas, Seaborn, and Matplotlib, I explored several key questions:
+- How does seizure frequency change over time?
+- Does sleep deviation correlate with seizure count?
+- Are certain age groups more affected than others?
+- Which numeric variables show meaningful relationships?
+
+### Visualizations
+I created four core visuals to support the analysis:
+- **Seizure Trends Over Time**  
+- **Correlation Heatmap (numeric variables only)**  
+- **Sleep Deviation vs Seizure Count Scatter Plot**  
+- **Demographic Breakdown by Age Group**
+
+These visuals helped highlight patterns such as the relationship between sleep consistency and seizure activity.
+
+### Key Insights
+- Seizure frequency varies noticeably over time, suggesting temporal patterns worth deeper exploration.
+- Greater negative sleep deviation (less sleep than usual) appears to align with higher seizure counts.
+- Lower medication adherence may be associated with increased seizure activity.
+- Age groups show different seizure frequencies, indicating demographic influences.
+
+### Challenges & Solutions
+During the project, I encountered several issues:
+- The visuals folder did not exist, causing image‑saving errors. I resolved this by adding automated folder creation using `os.makedirs()`.
+- The correlation heatmap failed due to non‑numeric columns. I fixed this by selecting only numeric fields with `df.select_dtypes(include='number')`.
+- Some project files were accidentally saved in the cleaned data folder. I reorganized the project into a clean, professional structure.
+
+### Conclusion
+This project strengthened my ability to work with real‑world data, build reproducible analysis pipelines, and communicate insights visually. It demonstrates my growing proficiency in Python, Pandas, Seaborn, and Matplotlib, as well as my ability to troubleshoot issues and maintain a clean project structure. The findings highlight meaningful behavioral and demographic patterns that could support future clinical research or patient‑focused interventions.
